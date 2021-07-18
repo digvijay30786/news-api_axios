@@ -1,2 +1,2 @@
-# news-api_axios
+# git-api_axios
 Created with CodeSandbox

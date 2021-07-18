@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App > div {
+  display: flex;
+  padding-top: 60px;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.App > div > .card {
+  box-shadow: 1px 1px 3px 1px gray;
+}
+
+.App > div > .card a {
+  text-decoration: none;
+}
+
+.App > div > .card > a > div > p {
+  font-family: sans-serif;
+  color: black;
+  font-weight: 700;
+}
+.App > div > .card > a > div > p:hover {
+  color: blue;
+  font-size: 20px;
+}
+
+.App > div > .card:hover {
+  box-shadow: 3px 3px 12px 3px gray;
+}
